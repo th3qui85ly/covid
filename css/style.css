@@ -1,0 +1,100 @@
+/*--SECONDARY PAGES CSS--*/
+/*--Main Layout--*/
+* {
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/*--Style the header--*/
+.headpg2 
+{
+  font-family: Spartan, sans-serif;
+  border-width: 0 0 0 5px;
+  border-color: blue;
+  border-style: solid;
+  padding: 8px;
+  text-align: left;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+#vidhead
+{
+  border-width: 0 0 0 5px;
+  border-color: red;
+  border-style: solid;
+  padding: 8px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+/*---------------*/
+
+/*--Body Cards--*/
+div.textcard
+{
+font-family: "Exo", sans-serif;
+font-size: 20px;
+position: relative;
+width: 85%;
+height: auto;
+padding: 10px;
+color: rgba(0,0,0,1);
+text-align: justify;
+border-radius: 27px;
+background: #e8e8e8;
+box-shadow: -2px -3px 8px #b7b7b7,
+	     1px 1px 3px #ffffff;
+}
+/*---------------*/
+
+/*--iframe alteration--*/
+iframe
+{
+display: block;
+margin: 0 auto;
+border: 3px outset;
+}
+/*---------------*/
+
+/*--FORMATTING OF 3D BUTTONS--*/
+a.fa
+{
+padding: 10px;
+font-size: 30px;
+width: 50px;
+height: 50px;
+text-align: center;
+text-decoration: none;
+margin: 10px;
+color: black;
+border-radius: 50%;
+background: linear-gradient(315deg, #323232, #ffffff);
+box-shadow:  -3px -3px 8px #414141,
+              2px 2px 5px #1d1d1d;
+             transition: 0.1s border-radius ease;
+}
+a.fa:hover
+{
+border-radius: 50%;
+background: linear-gradient(315deg, #ffffff, #323232);
+box-shadow: -3px -3px 8px #1d1d1d,
+             2px 2px 5px #414141;
+             transition: 0.5s border-radius ease;
+}
+/*---------------*/
+
+/*--State-Case Table Formatting--*/
+.sttable
+{
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+border-width: 0 0 0 5px;
+border-color: blue;
+padding: 5px;
+outline: 2px dashed grey;
+background: #bbeeff;
+float: middle;
+}
+
